@@ -1,0 +1,125 @@
+.theme-forest {
+  --medium-spring-green-100: #50ffb1ff;
+  --mint-200: #4fb286ff;
+  --viridian-300: #3c896dff;
+  --feldgrau-700: #546d64ff;
+  --feldgrau-900: #4d685aff;
+
+  --card-primary-color: var(--black);
+  --card-secondary-color: var(--medium-spring-green-100);
+  --card-accent-color: var(--mint-200);
+  --border-radius: 0px;
+
+  --card-background: var(--card-primary-color);
+  --card-border-color: var(--card-accent-color);
+  --card-border-radius: var(--border-radius);
+
+  --card-heading-ff: var(--ff-nunito);
+  --card-heading-fw: var(--fw-700);
+  --card-heading-color: var(--card-accent-color);
+
+  --card-copy-ff: var(--ff-nunito);
+  --card-copy-fw: var(--fw-400);
+  --card-copy-color: var(--card-secondary-color);
+
+  --card-button-background-color: var(--card-accent-color);
+  --card-button-hover-background-color: var(--card-primary-color);
+  --card-button-hover-text-color: var(--card-accent-color);
+  --card-button-text-color: var(--card-primary-color);
+  --card-button-border-radius: var(--border-radius);
+  --card-button-text-transform: uppercase;
+}
+
+.theme-beach-day {
+  --rich-black-fogra-39: hsla(300, 7%, 3%, 1);
+  --blue-crayola: hsla(222, 100%, 61%, 1);
+  --peach-crayola: hsla(20, 100%, 81%, 1);
+  --cream: hsla(74, 97%, 89%, 1);
+  --vivid-sky-blue: hsla(193, 88%, 65%, 1);
+
+  --card-primary-color: var(--cream);
+  --card-secondary-color: var(--blue-crayola);
+  --card-accent-color: var(--vivid-sky-blue);
+  --border-radius: 30px;
+
+  --card-background: var(--card-primary-color);
+  --card-border-color: var(--card-accent-color);
+  --card-border-radius: var(--border-radius);
+
+  --card-heading-ff: var(--ff-nunito);
+  --card-heading-fw: var(--fw-700);
+  --card-heading-color: var(--card-accent-color);
+
+  --card-copy-ff: var(--ff-nunito);
+  --card-copy-fw: var(--fw-400);
+  --card-copy-color: var(--card-secondary-color);
+
+  --card-button-background-color: var(--card-accent-color);
+  --card-button-hover-background-color: var(--card-primary-color);
+  --card-button-hover-text-color: var(--card-accent-color);
+  --card-button-text-color: var(--card-primary-color);
+  --card-button-border-radius: var(--border-radius);
+  --card-button-text-transform: uppercase;
+}
+
+.theme-canyon {
+  --xiketic: #130303ff;
+  --dark-sienna: #2d080aff;
+  --burnt-umber: #7c3626ff;
+  --mango-tango: #f5853fff;
+  --apricot: #ffcdbcff;
+
+  --card-primary-color: var(--burnt-umber);
+  --card-secondary-color: var(--apricot);
+  --card-accent-color: var(--mango-tango);
+  --border-radius: 0px;
+
+  --card-background: var(--card-primary-color);
+  --card-border-color: var(--card-accent-color);
+  --card-border-radius: var(--border-radius);
+
+  --card-heading-ff: var(--ff-nunito);
+  --card-heading-fw: var(--fw-700);
+  --card-heading-color: var(--card-accent-color);
+
+  --card-copy-ff: var(--ff-nunito);
+  --card-copy-fw: var(--fw-400);
+  --card-copy-color: var(--card-secondary-color);
+
+  --card-button-background-color: var(--card-accent-color);
+  --card-button-hover-background-color: var(--card-primary-color);
+  --card-button-hover-text-color: var(--card-accent-color);
+  --card-button-text-color: var(--card-primary-color);
+  --card-button-border-radius: var(--border-radius);
+  --card-button-text-transform: uppercase;
+}
+
+.theme-blue-sky {
+  --queen-blue: #33658aff;
+  --dark-sky-blue: #86bbd8ff;
+  --raisin-black: #291f1eff;
+
+  --card-primary-color: var(--dark-sky-blue);
+  --card-secondary-color: var(--raisin-black);
+  --card-accent-color: var(--queen-blue);
+  --border-radius: 50px;
+
+  --card-background: var(--card-primary-color);
+  --card-border-color: var(--card-accent-color);
+  --card-border-radius: var(--border-radius);
+
+  --card-heading-ff: var(--ff-nunito);
+  --card-heading-fw: var(--fw-700);
+  --card-heading-color: var(--card-accent-color);
+
+  --card-copy-ff: var(--ff-nunito);
+  --card-copy-fw: var(--fw-400);
+  --card-copy-color: var(--card-secondary-color);
+
+  --card-button-background-color: var(--card-accent-color);
+  --card-button-hover-background-color: var(--card-primary-color);
+  --card-button-hover-text-color: var(--card-accent-color);
+  --card-button-text-color: var(--card-primary-color);
+  --card-button-border-radius: var(--border-radius);
+  --card-button-text-transform: uppercase;
+}
