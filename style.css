@@ -23,12 +23,15 @@
   --card-primary-color: var(--white);
   --card-secondary-color: var(--gray);
   --card-accent-color: var(--red);
+  --border-radius: 10px;
 
   /*
   Card Custom Properties
   */
+
   --card-background: var(--card-priamry-color);
   --card-border-color: var(--card-accent-color);
+  --card-border-radius: var(--border-radius);
 
   --card-heading-ff: var(--ff-roboto);
   --card-heading-fw: var(--fw-700);
@@ -40,7 +43,41 @@
 
   --card-button-background-color: var(--card-accent-color);
   --card-button-text-color: var(--card-primary-color);
-  --card-button-border-radius: 10px;
+  --card-button-border-radius: var(--border-radius);
+  --card-button-hover-background-color: var(--black)
+  --card-button-hover-text-color: var(--white); 
+  --card-button-text-transform: uppercase;
+}
+
+.theme-forest {
+  --medium-spring-green-100: #50ffb1ff;
+  --mint-200: #4fb286ff;
+  --viridian-300: #3c896dff;
+  --feldgrau-700: #546d64ff;
+  --feldgrau-900: #4d685aff;
+
+  --card-primary-color: var(--black);
+  --card-secondary-color: var(--medium-spring-green-100);
+  --card-accent-color: var(--mint-200);
+  --border-radius: 0px;
+
+  --card-background: var(--card-primary-color);
+  --card-border-color: var(--card-accent-color);
+  --card-border-radius: var(--border-radius);
+
+  --card-heading-ff: var(--ff-nunito);
+  --card-heading-fw: var(--fw-700);
+  --card-heading-color: var(--card-accent-color);
+
+  --card-copy-ff: var(--ff-nunito);
+  --card-copy-fw: var(--fw-400);
+  --card-copy-color: var(--card-secondary-color);
+
+  --card-button-background-color: var(--card-accent-color);
+  --card-button-hover-background-color: var(--black);
+  --card-button-hover-text-color: var(--white); 
+  --card-button-text-color: var(--card-primary-color);
+  --card-button-border-radius: var(--border-radius);
   --card-button-text-transform: uppercase;
 }
 
@@ -54,8 +91,10 @@
   padding-block: 1rem;
   background-color: var(--card-background);
   border-color: var(--card-border-color);
+  border-radius: var(--card-border-radius);
   border-width: 2px;
   border-style: solid;
+  margin-top: 100px;
 }
 
 .card__heading {
@@ -83,4 +122,22 @@
   background-color: var(--card-button-background-color);
   color: var(--card-button-text-color);
   text-transform: var(--card-button-text-transform, lowercase);
+}
+
+.card__button:hover,
+.card__button:focus {
+  cursor: pointer;
+  background-color: var(--card-button-hover-background-color);
+  color: var(--card-button-hover-text-color);
+  outline: 2px solid var(--card-button-hover-text-color);
+  transition-property: background-color, color, outline-color;
+  transition-timing-function: ease-in;
+  transition-duration: 300ms;
+}
+
+.theme-selector {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
