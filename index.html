@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Themeing with CSS Custom Properites</title>
   </head>
-  <body class="theme-forest">
+  <body class="">
     <section class="container">
       <div class="card">
         <h2 class="card__heading">A Cool Shoe!</h2>
@@ -26,16 +26,18 @@
         <button class="card__button">Buy Now!</button>
       </div>
     </section>
-
     <section class="theme-selector container">
-      <label for="themeSelect">Select a Theme</label>
-      <select name="themeSelect" id="themeSelect">
-        <option value="" selected>Default (red)</option>
-        <option value="theme-blue-sky">Blue Skys</option>
-        <option value="theme-forest">Forest</option>
-        <option value="theme-beach-day">Beach Day!</option>
-        <option value="theme-canyon">Canyon</option>
-      </select>
+      <form class="js-theme-select-form">
+        <label for="themeSelect">Select a Theme</label>
+        <select name="themeSelect" id="themeSelect">
+          <option value="" selected>Default (red)</option>
+          <option value="theme-blue-sky">Blue Skys</option>
+          <option value="theme-forest">Forest</option>
+          <option value="theme-beach-day">Beach Day!</option>
+          <option value="theme-canyon">Canyon</option>
+        </select>
+      </form>
     </section>
+    <script src="main.js"></script>
   </body>
 </html>

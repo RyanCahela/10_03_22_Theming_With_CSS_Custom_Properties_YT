@@ -81,6 +81,10 @@
   --card-button-text-transform: uppercase;
 }
 
+.theme-beach-day {
+  
+}
+
 .container {
   max-width: min(calc(100% - 2rem), 300px);
   margin-inline: auto;
